@@ -4,7 +4,8 @@
 - [🧪 Ejercicio 2: Encontrar el número máximo en un array](#-ejercicio-2-encontrar-el-número-máximo-en-un-array)
 - [🧪 Ejercicio 3: Verificar si un String es un palíndromo](#-ejercicio-3-verificar-si-un-string-es-un-palíndromo)
 - [🧪 Ejercicio 4: Contar vocales en un String](#-ejercicio-4-contar-vocales-en-un-string)
-
+- [🧪 Ejercicio 5: Sumar múltiplos de 3 en un array](#-ejercicio-5-sumar-múltiplos-de-3-en-un-array)
+- [🧪 Ejercicio 6: Buscar un nombre en una lista ignorando mayúsculas](#-ejercicio-6-buscar-un-nombre-en-una-lista-ignorando-mayúsculas)
 
 
 # 🚀 Live Coding Challenges
@@ -176,3 +177,72 @@ Escribir un programa que cuente cuántas vocales (`a, e, i, o, u`) contiene una 
 
 - `return contador;`  
   Devuelve el total de vocales encontradas.
+
+## 🧪 Ejercicio 5: Sumar múltiplos de 3 en un array
+
+### Enunciado
+
+Dado un array de números enteros, sumar todos los que sean múltiplos de 3.
+
+**Ejemplo:**
+
+- Input: `{1, 3, 5, 6, 9, 11}`
+- Output: `18`
+
+### 📖 Explicación línea por línea
+
+- `int[] numeros = {1, 3, 5, 6, 9, 11};`  
+  Se define el array de números enteros.
+
+- `int suma = 0;`  
+  Se declara una variable acumuladora.
+
+- `for (int i = 0; i < numeros.length; i++):`  
+  Recorre el array de principio a fin.
+
+- `if (numeros[i] % 3 == 0):`  
+  Verifica si el número actual es múltiplo de 3.
+
+- `suma += numeros[i];`  
+  Si lo es, lo suma a la variable `suma`.
+
+- `System.out.print(suma);`  
+  Imprime el resultado final de la suma.
+
+## 🧪 Ejercicio 6: Buscar un nombre en una lista ignorando mayúsculas
+
+### Enunciado
+
+Dada una lista de nombres, permitir al usuario ingresar uno por consola y verificar si está presente en la lista, sin importar las mayúsculas o minúsculas.
+
+**Ejemplo:**
+
+- Lista: `["Lucas", "Noe", "Pollito", "Ana"]`
+- Entrada: `"ana"`
+- Output: `true`
+
+### 📖 Explicación línea por línea
+
+- `List<String> nombres = new ArrayList<>();`  
+  Se crea una lista de nombres.
+
+- `nombres.addAll(List.of(...));`  
+  Se agregan los elementos a la lista.
+
+- `Scanner scanner = new Scanner(System.in);`  
+  Se crea un objeto para leer desde consola.
+
+- `String nombreBuscado = scanner.nextLine().toLowerCase();`  
+  Se lee lo ingresado y se convierte a minúscula.
+
+- `for (String nombre : nombres):`  
+  Recorre cada elemento de la lista.
+
+- `if (nombre.toLowerCase().equals(nombreBuscado)):`  
+  Compara ambos en minúscula para que no importe el formato.
+
+- `encontrado = true; break;`  
+  Si lo encuentra, marca como `true` y corta el bucle.
+
+- `System.out.print(encontrado);`  
+  Muestra si se encontró o no.
