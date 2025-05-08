@@ -6,6 +6,8 @@
 - [🧪 Ejercicio 4: Contar vocales en un String](#-ejercicio-4-contar-vocales-en-un-string)
 - [🧪 Ejercicio 5: Sumar múltiplos de 3 en un array](#-ejercicio-5-sumar-múltiplos-de-3-en-un-array)
 - [🧪 Ejercicio 6: Buscar un nombre en una lista ignorando mayúsculas](#-ejercicio-6-buscar-un-nombre-en-una-lista-ignorando-mayúsculas)
+- [🧪 Ejercicio 7: Clase Persona con saludo y verificación de mayoría de edad](#-ejercicio-7-clase-persona-con-saludo-y-verificación-de-mayoría-de-edad)
+- [🧪 Ejercicio 8: Clase Producto con cálculo de total y descuento](#-ejercicio-8-clase-producto-con-cálculo-de-total-y-descuento)
 
 
 # 🚀 Live Coding Challenges
@@ -246,3 +248,47 @@ Dada una lista de nombres, permitir al usuario ingresar uno por consola y verifi
 
 - `System.out.print(encontrado);`  
   Muestra si se encontró o no.
+
+## 🧪 Ejercicio 7: Clase Persona con saludo y verificación de mayoría de edad
+
+### Enunciado
+
+Crear una clase `Persona` con nombre y edad. La persona puede saludar e indicar si es mayor de edad.
+
+### 📖 Explicación línea por línea
+
+- `class Persona`  
+  Define una clase con atributos `nombre` y `edad`.
+
+- `public Persona(String nombre, int edad)`  
+  Constructor que inicializa los datos al crear el objeto.
+
+- `void saludo()`  
+  Método que imprime un saludo personalizado con nombre y edad.
+
+- `boolean esMayorDeEdad()`  
+  Devuelve `true` si la edad es mayor o igual a 18.
+
+- En el `main`, se crea una persona y se ejecutan ambos métodos.
+
+## 🧪 Ejercicio 8: Clase Producto con cálculo de total y descuento
+
+### Enunciado
+
+Crear una clase `Producto` que contenga nombre, precio y cantidad. Implementar métodos para calcular el total sin descuento y aplicar un descuento porcentual.
+
+### 📖 Explicación línea por línea
+
+- `class Producto`  
+  Clase con atributos `nombre`, `precio` y `cantidad`.
+
+- `public Producto(String nombre, double precio, int cantidad)`  
+  Constructor que carga los datos iniciales del producto.
+
+- `public double calcularTotal()`  
+  Devuelve el precio total multiplicando `precio * cantidad`.
+
+- `public double aplicarDescuento(double porcentaje)`  
+  Calcula un porcentaje de descuento y lo resta al total.
+
+- En el `main`, se crea un producto y se imprimen sus detalles, el total sin descuento y el total con descuento.
