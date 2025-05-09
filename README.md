@@ -8,6 +8,8 @@
 - [🧪 Ejercicio 6: Buscar un nombre en una lista ignorando mayúsculas](#-ejercicio-6-buscar-un-nombre-en-una-lista-ignorando-mayúsculas)
 - [🧪 Ejercicio 7: Clase Persona con saludo y verificación de mayoría de edad](#-ejercicio-7-clase-persona-con-saludo-y-verificación-de-mayoría-de-edad)
 - [🧪 Ejercicio 8: Clase Producto con cálculo de total y descuento](#-ejercicio-8-clase-producto-con-cálculo-de-total-y-descuento)
+- [🧪 Ejercicio 9: Clase Libro con descripción, páginas y evaluación de longitud](#-ejercicio-9-clase-libro-con-descripción-páginas-y-evaluación-de-longitud)
+- [🧪 Ejercicio 10: Clase Empleado con herencia de Persona](#-ejercicio-10-clase-empleado-con-herencia-de-persona)
 
 
 # 🚀 Live Coding Challenges
@@ -292,3 +294,56 @@ Crear una clase `Producto` que contenga nombre, precio y cantidad. Implementar m
   Calcula un porcentaje de descuento y lo resta al total.
 
 - En el `main`, se crea un producto y se imprimen sus detalles, el total sin descuento y el total con descuento.
+
+## 🧪 Ejercicio 9: Clase Libro con descripción, páginas y evaluación de longitud
+
+### Enunciado
+
+Crear una clase `Libro` que contenga título, autor y cantidad de páginas. Implementar métodos para mostrar la descripción, indicar si el libro es largo y calcular cuántas páginas faltan leer.
+
+### 📖 Explicación línea por línea
+
+- `class Libro`  
+  Clase con atributos `titulo`, `autor` y `paginas`.
+
+- `public Libro(String titulo, String autor, int paginas)`  
+  Constructor para cargar los datos del libro.
+
+- `void mostrarDescripcion()`  
+  Muestra un texto con una breve sinopsis fija del libro.
+
+- `boolean esLargo()`  
+  Devuelve `true` si el libro tiene 300 páginas o más.
+
+- `int paginasRestante()`  
+  Calcula cuántas páginas quedan por leer, restando las leídas (fijas en 100).
+
+- En el `main`, se crea un objeto `Libro`, se muestran sus datos, la sinopsis, las páginas restantes y si es largo o no.
+
+## 🧪 Ejercicio 10: Clase Empleado con herencia de Persona
+
+### Enunciado
+
+Crear una clase `Empleado` que herede de `Persona`, agregando sueldo base y bono. Implementar métodos para mostrar los datos, calcular el sueldo total y verificar si tiene bono.
+
+### 📖 Explicación línea por línea
+
+- `class Persona`  
+  Clase base con atributos `nombre` y `edad`.
+
+- `class Empleado extends Persona`  
+  Clase que hereda de `Persona` y agrega nuevos atributos.
+
+- `super(nombre, edad)`  
+  Llama al constructor de la clase base (`Persona`) desde el constructor de `Empleado`.
+
+- `void mostrarDatos()`  
+  Imprime los datos del empleado incluyendo sueldo base y bono.
+
+- `double calcularSueldoTotal()`  
+  Devuelve la suma del sueldo base más el bono.
+
+- `boolean tieneBono()`  
+  Retorna `true` si el bono es mayor a cero.
+
+- En el `main`, se crea un `Empleado`, se invocan métodos heredados y propios, y se imprime toda la información.
