@@ -10,6 +10,8 @@
 - [🧪 Ejercicio 8: Clase Producto con cálculo de total y descuento](#-ejercicio-8-clase-producto-con-cálculo-de-total-y-descuento)
 - [🧪 Ejercicio 9: Clase Libro con descripción, páginas y evaluación de longitud](#-ejercicio-9-clase-libro-con-descripción-páginas-y-evaluación-de-longitud)
 - [🧪 Ejercicio 10: Clase Empleado con herencia de Persona](#-ejercicio-10-clase-empleado-con-herencia-de-persona)
+- [🧪 Ejercicio 11: Clases Animal, Perro y Gato con herencia y @Override](#-ejercicio-11-clases-animal-perro-y-gato-con-herencia-y-override)
+- [🧪 Ejercicio 12: Clase Vehiculo con subclase Auto y método sobrescrito](#-ejercicio-12-clase-vehiculo-con-subclase-auto-y-método-sobrescrito)
 
 
 # 🚀 Live Coding Challenges
@@ -347,3 +349,47 @@ Crear una clase `Empleado` que herede de `Persona`, agregando sueldo base y bono
   Retorna `true` si el bono es mayor a cero.
 
 - En el `main`, se crea un `Empleado`, se invocan métodos heredados y propios, y se imprime toda la información.
+
+## 🧪 Ejercicio 11: Clases Animal, Perro y Gato con herencia y @Override
+
+### Enunciado
+
+Crear una clase base `Animal` con atributos `nombre` y `edad`, y un método `hacerSonido()`. Luego, crear las subclases `Perro` y `Gato`, sobrescribiendo el método para emitir un sonido diferente. Mostrar la información y los sonidos usando `@Override`.
+
+### 📖 Explicación línea por línea
+
+- `class Animal`  
+  Clase base con atributos y método `hacerSonido()` genérico.
+
+- `class Perro extends Animal`  
+  Hereda de `Animal` y sobrescribe el método `hacerSonido()` con `¡Guau guau!`.
+
+- `class Gato extends Animal`  
+  También hereda y sobrescribe el método con `Miau miau...`.
+
+- `@Override`  
+  Indica que se está reemplazando un método heredado.
+
+- En el `main`, se crean instancias de `Perro` y `Gato`, se imprime su información y se llama a los métodos sobrescritos.
+
+## 🧪 Ejercicio 12: Clase Vehiculo con subclase Auto y método sobrescrito
+
+### Enunciado
+
+Crear una clase base `Vehiculo` con atributos `marca`, `modelo` y `anio`, y un método `mostrarDetalles()`. Luego, crear una subclase `Auto` con el atributo adicional `puertas`, sobrescribiendo el método para mostrar también esa información.
+
+### 📖 Explicación línea por línea
+
+- `class Vehiculo`  
+  Clase base con atributos y un método que imprime la información del vehículo.
+
+- `class Auto extends Vehiculo`  
+  Subclase que hereda los atributos de `Vehiculo` y agrega uno nuevo: `puertas`.
+
+- `super(...)`  
+  Llama al constructor de la clase base para reutilizar el código.
+
+- `@Override`  
+  Permite redefinir el método `mostrarDetalles()` para incluir las puertas.
+
+- En el `main`, se crea un objeto `Auto` y se muestra toda su información.
