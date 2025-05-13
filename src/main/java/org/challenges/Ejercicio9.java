@@ -1,6 +1,6 @@
 package org.challenges;
 
-public class Constructor3 {
+public class Ejercicio9 {
     public static void main (String[] args){
         Libro libro = new Libro("Orgullo y prejuicio", "Jane Austen", 352);
 

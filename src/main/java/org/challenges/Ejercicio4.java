@@ -1,6 +1,6 @@
 package org.challenges;
 
-public class ContarVocales {
+public class Ejercicio4 {
     public static void main(String[] args){
         String texto = "Playwright es genial";
         int cantidad = contarVocales(texto);

@@ -1,6 +1,6 @@
 package org.challenges;
 
-public class Constructor {
+public class Ejercicio7 {
     public static void main(String[] args){
         Persona persona = new Persona("Pedro", 35);
         persona.saludo();

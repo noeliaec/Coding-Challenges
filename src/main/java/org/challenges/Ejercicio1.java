@@ -1,6 +1,6 @@
 package org.challenges;
 
-public class InvertirString{
+public class Ejercicio1{
     public static void main (String[] arg) {
         String original = "Playwrigth";
         String invertido = stringInvertido(original);

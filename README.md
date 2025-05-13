@@ -12,6 +12,10 @@
 - [🧪 Ejercicio 10: Clase Empleado con herencia de Persona](#-ejercicio-10-clase-empleado-con-herencia-de-persona)
 - [🧪 Ejercicio 11: Clases Animal, Perro y Gato con herencia y @Override](#-ejercicio-11-clases-animal-perro-y-gato-con-herencia-y-override)
 - [🧪 Ejercicio 12: Clase Vehiculo con subclase Auto y método sobrescrito](#-ejercicio-12-clase-vehiculo-con-subclase-auto-y-método-sobrescrito)
+- [🧪 Ejercicio 13: ArrayList de autos con múltiples filtros](#-ejercicio-13-arraylist-de-autos-con-múltiples-filtros)
+- [🧪 Ejercicio 14: Composición entre clases Auto y Motor](#-ejercicio-14-composición-entre-clases-auto-y-motor)
+- [🧪 Ejercicio 15: HashMap de productos y operaciones clave-valor](#-ejercicio-15-hashmap-de-productos-y-operaciones-clave-valor)
+- [🧪 Ejercicio 16: Set de valores únicos sin duplicados](#-ejercicio-16-set-de-valores-únicos-sin-duplicados)
 
 
 # 🚀 Live Coding Challenges
@@ -21,6 +25,7 @@ Práctica de ejercicios de programación en Java para entrevistas y mejora de ha
 ---
 
 ## 🧪 Ejercicio 1: Invertir un String
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio1.java)
 
 ### Enunciado
 
@@ -59,6 +64,7 @@ Escribir una función que reciba un `String` y devuelva el `String` invertido.
 
 
 ## 🧪 Ejercicio 2: Encontrar el número máximo en un array
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio2.java)
 
 ### Enunciado
 
@@ -99,6 +105,7 @@ Escribir una función que reciba un array de números enteros y devuelva el núm
   Se devuelve el número más grande encontrado.
 
 ## 🧪 Ejercicio 3: Verificar si un String es un palíndromo
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio3.java)
 
 ### Enunciado
 
@@ -142,6 +149,7 @@ Crear un programa que verifique si un `String` es un palíndromo (se lee igual d
   Si todos los pares coinciden, es un palíndromo.
 
 ## 🧪 Ejercicio 4: Contar vocales en un String
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio4.java)
 
 ### Enunciado
 
@@ -185,6 +193,7 @@ Escribir un programa que cuente cuántas vocales (`a, e, i, o, u`) contiene una 
   Devuelve el total de vocales encontradas.
 
 ## 🧪 Ejercicio 5: Sumar múltiplos de 3 en un array
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio5.java)
 
 ### Enunciado
 
@@ -216,6 +225,7 @@ Dado un array de números enteros, sumar todos los que sean múltiplos de 3.
   Imprime el resultado final de la suma.
 
 ## 🧪 Ejercicio 6: Buscar un nombre en una lista ignorando mayúsculas
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio6.java)
 
 ### Enunciado
 
@@ -254,6 +264,7 @@ Dada una lista de nombres, permitir al usuario ingresar uno por consola y verifi
   Muestra si se encontró o no.
 
 ## 🧪 Ejercicio 7: Clase Persona con saludo y verificación de mayoría de edad
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio7.java)
 
 ### Enunciado
 
@@ -276,6 +287,7 @@ Crear una clase `Persona` con nombre y edad. La persona puede saludar e indicar 
 - En el `main`, se crea una persona y se ejecutan ambos métodos.
 
 ## 🧪 Ejercicio 8: Clase Producto con cálculo de total y descuento
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio8.java)
 
 ### Enunciado
 
@@ -298,6 +310,7 @@ Crear una clase `Producto` que contenga nombre, precio y cantidad. Implementar m
 - En el `main`, se crea un producto y se imprimen sus detalles, el total sin descuento y el total con descuento.
 
 ## 🧪 Ejercicio 9: Clase Libro con descripción, páginas y evaluación de longitud
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio9.java)
 
 ### Enunciado
 
@@ -323,6 +336,7 @@ Crear una clase `Libro` que contenga título, autor y cantidad de páginas. Impl
 - En el `main`, se crea un objeto `Libro`, se muestran sus datos, la sinopsis, las páginas restantes y si es largo o no.
 
 ## 🧪 Ejercicio 10: Clase Empleado con herencia de Persona
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio10.java)
 
 ### Enunciado
 
@@ -351,6 +365,7 @@ Crear una clase `Empleado` que herede de `Persona`, agregando sueldo base y bono
 - En el `main`, se crea un `Empleado`, se invocan métodos heredados y propios, y se imprime toda la información.
 
 ## 🧪 Ejercicio 11: Clases Animal, Perro y Gato con herencia y @Override
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio11.java)
 
 ### Enunciado
 
@@ -373,6 +388,7 @@ Crear una clase base `Animal` con atributos `nombre` y `edad`, y un método `hac
 - En el `main`, se crean instancias de `Perro` y `Gato`, se imprime su información y se llama a los métodos sobrescritos.
 
 ## 🧪 Ejercicio 12: Clase Vehiculo con subclase Auto y método sobrescrito
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio12.java)
 
 ### Enunciado
 
@@ -393,3 +409,56 @@ Crear una clase base `Vehiculo` con atributos `marca`, `modelo` y `anio`, y un m
   Permite redefinir el método `mostrarDetalles()` para incluir las puertas.
 
 - En el `main`, se crea un objeto `Auto` y se muestra toda su información.
+
+## 🧪 Ejercicio 13: ArrayList de autos con múltiples filtros
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio13.java)
+
+### Enunciado
+
+Crear una lista (`ArrayList`) de objetos `Auto` y aplicar filtros utilizando métodos booleanos para determinar si el auto es nuevo, si es Fiat y si tiene 4 puertas. Solo se muestran los autos que cumplen con **todas las condiciones**.
+
+### 📖 Detalles clave
+
+- Se usó `ArrayList<Auto>` para almacenar múltiples autos.
+- Cada objeto `Auto` tiene atributos como `marca`, `modelo`, `anio`, y `puertas`.
+- Se aplican condiciones con `&&` dentro de un `for` para filtrar autos.
+
+## 🧪 Ejercicio 14: Composición entre clases Auto y Motor
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio14.java)
+
+### Enunciado
+
+Crear una clase `Motor` con tipo y cilindrada, y una clase `Auto` que contiene un objeto `Motor` como atributo. Mostrar toda la información del auto incluyendo sus datos de motor.
+
+### 📖 Detalles clave
+
+- Se implementó **composición**: `Auto` tiene un `Motor` como atributo.
+- Cada `Motor` contiene `tipo` (ej: "Nafta") y `cilindrada` (ej: 1.6).
+- En el método `mostrarDetalles()` del auto se imprime también la información del motor usando `motor.mostrarMotor()`.
+
+## 🧪 Ejercicio 15: HashMap de productos y operaciones clave-valor
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio15_1.java)
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio15_2.java)
+
+### Enunciado
+
+Crear un `HashMap<String, Double>` que represente productos y sus precios. Utilizar operaciones como agregar (`put`), obtener (`get`), verificar existencia (`containsKey`), eliminar (`remove`) y recorrer el mapa.
+
+### 📖 Detalles clave
+
+- Se usó `HashMap` para representar relaciones tipo `producto → precio`.
+- Se recorrió el mapa con un `for` sobre `keySet()` para mostrar clave y valor.
+- Se trabajó con claves únicas (`String`) y valores numéricos (`Double`).
+
+## 🧪 Ejercicio 16: Set de valores únicos sin duplicados
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio16.java)
+
+### Enunciado
+
+Utilizar un `Set<String>` para guardar una lista de valores únicos (por ejemplo, nombres de frutas). Verificar cómo el set automáticamente elimina duplicados.
+
+### 📖 Detalles clave
+
+- Se utilizó `HashSet` como implementación de `Set`.
+- Al intentar agregar valores repetidos, el `Set` los ignora.
+- Se recorrió el set con un `for` para mostrar todos los valores únicos.

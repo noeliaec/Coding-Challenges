@@ -1,6 +1,6 @@
 package org.challenges;
 
-public class Herencia {
+public class Ejercicio10 {
     public static void main(String[] args){
         Empleado empleado = new Empleado("Noe", 35, 1500, 750);
 

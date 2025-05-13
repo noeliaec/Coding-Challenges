@@ -1,8 +1,8 @@
 package org.challenges;
 
-public class HerenciaOverride2 {
+public class Ejercicio12 {
     public static void main(String[] args) {
-        Auto auto = new Auto("Fiat", "Chronos", 2023, 4);
+        Auto auto = new Auto("Fiat", "Chronos", 2023, 4, new Motor("Nafta", 1.6));
 
         auto.mostrarDetalles();
     }
@@ -30,9 +30,11 @@ class Vehiculo{
 
 class Auto extends Vehiculo{
     int puertas;
-    public Auto(String marca, String modelo, int anio, int puertas){
+    Motor motor;
+    public Auto(String marca, String modelo, int anio, int puertas, Motor motor){
         super(marca, modelo, anio);
         this.puertas = puertas;
+        this.motor = motor;
     }
 
     @Override
@@ -43,5 +45,18 @@ class Auto extends Vehiculo{
                 "\nAño: "+anio+
                 "\nPuertas: "+puertas
         );
+        motor.mostrarMotor();
+    }
+
+    boolean esNuevo() {
+        return anio >= 2020;
+    }
+
+    boolean esFiat(){
+        return marca.equals("Fiat");
+    }
+
+    boolean tiene4puertas(){
+        return puertas == 4;
     }
 }

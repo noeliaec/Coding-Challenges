@@ -1,6 +1,6 @@
 package org.challenges;
 
-public class Palindromo {
+public class Ejercicio3 {
     public static void main (String[] args){
         String palabra = "racecar";
         boolean resultado = esPalindromo(palabra);
