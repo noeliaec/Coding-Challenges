@@ -12,4 +12,8 @@ class Motor{
     void mostrarMotor(){
         System.out.println("Motor: "+tipo+" - "+cilindrada);
     }
+
+    boolean esNafta() {
+        return tipo.equalsIgnoreCase("Nafta");
+    }
 }

@@ -16,6 +16,8 @@
 - [🧪 Ejercicio 14: Composición entre clases Auto y Motor](#-ejercicio-14-composición-entre-clases-auto-y-motor)
 - [🧪 Ejercicio 15: HashMap de productos y operaciones clave-valor](#-ejercicio-15-hashmap-de-productos-y-operaciones-clave-valor)
 - [🧪 Ejercicio 16: Set de valores únicos sin duplicados](#-ejercicio-16-set-de-valores-únicos-sin-duplicados)
+- [🧪 Ejercicio 17: Sistema de autos con herencia, composición y filtros](#-ejercicio-17-sistema-de-autos-con-herencia-composición-y-filtros)
+- [🧪 Ejercicio 18: Catálogo de celulares con lógica y estructuras](#-ejercicio-18-catálogo-de-celulares-con-lógica-y-estructuras)
 
 
 # 🚀 Live Coding Challenges
@@ -462,3 +464,45 @@ Utilizar un `Set<String>` para guardar una lista de valores únicos (por ejemplo
 - Se utilizó `HashSet` como implementación de `Set`.
 - Al intentar agregar valores repetidos, el `Set` los ignora.
 - Se recorrió el set con un `for` para mostrar todos los valores únicos.
+
+## 🧪 Ejercicio 17: Sistema de autos con herencia, composición y filtros
+
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio17.java)
+
+### Enunciado
+
+Crear un sistema que modele autos utilizando herencia (`Auto` hereda de `Vehiculo`) y composición (`Auto` contiene un objeto `Motor`). Los autos se almacenan en un `ArrayList`, se filtran según criterios lógicos y se complementan con estructuras `HashMap` para precios y `Set` para marcas únicas.
+
+### 📖 Detalles clave
+
+- `Vehiculo`: clase base con `marca`, `modelo`, `anio`
+- `Auto`: subclase con `puertas` y `motor` como atributo
+- `Motor`: clase con `tipo` y `cilindrada`, más un método `esNafta()`
+- Se filtran autos que:
+  - Sean Fiat
+  - Sean del año 2020 en adelante
+  - Tengan motor naftero
+- Se usa `HashMap<String, Double>` para registrar precios por modelo
+- Se usa `Set<String>` para obtener marcas únicas de la lista
+
+## 🧪 Ejercicio 18: Catálogo de celulares con lógica y estructuras
+
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio18.java)
+
+### Enunciado
+
+Crear un sistema que modele celulares usando clases con herencia y composición. Cada `Celular` hereda de `Dispositivo` y contiene un objeto `Bateria`. Se deben aplicar filtros por marca, batería, año, y mostrar los resultados. Además, almacenar los precios con un `HashMap` y listar las marcas únicas usando un `Set`.
+
+### 📖 Detalles clave
+
+- `Dispositivo`: clase base con atributos comunes (`marca`, `modelo`, `anio`)
+- `Celular`: hereda de `Dispositivo`, agrega `pantalla` y una `Bateria`
+- `Bateria`: clase con `capacidad` y `tipo`, e incluye métodos para evaluar potencia
+- Se utilizaron `ArrayList` para almacenar múltiples celulares
+- Se aplicaron filtros para:
+  - Solo celulares Samsung
+  - Baterías mayores o iguales a 5000 mAh
+  - Celulares del 2022 en adelante
+  - Mostrar el “mejor” celular según criterios compuestos
+- Se usó `HashMap<String, Double>` para precios por modelo
+- Se usó `Set<String>` para obtener marcas únicas sin duplicados
