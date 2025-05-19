@@ -2,7 +2,7 @@ package org.challenges;
 
 import java.util.ArrayList;
 
-public class Ejercicio13 {
+public class Ejercicio13_Coleccion_ArrayList_Filtros {
     public static void main(String[] args){
         ArrayList<Auto> autos = new ArrayList<>();
 

@@ -1,7 +1,7 @@
 package org.challenges;
 
 import java.util.*;
-public class Ejercicio17 {
+public class Ejercicio17_POO_Composicion_Herencia_Autos {
     public static void main(String[] args) {
         List<Auto> autos = new ArrayList<>();
 

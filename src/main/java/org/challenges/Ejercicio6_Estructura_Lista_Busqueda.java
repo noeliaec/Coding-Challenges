@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Ejercicio6 {
+public class Ejercicio6_Estructura_Lista_Busqueda {
     public static void main(String[] args) {
         List<String> nombres = new ArrayList<>();
 

@@ -3,7 +3,7 @@ package org.challenges;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Ejercicio16 {
+public class Ejercicio16_Estructura_Set_SinDuplicados {
     public static void main(String[] args){
         Set<String> frutas = new HashSet<>();
 

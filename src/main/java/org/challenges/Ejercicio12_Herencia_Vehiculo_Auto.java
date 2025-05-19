@@ -1,6 +1,6 @@
 package org.challenges;
 
-public class Ejercicio12 {
+public class Ejercicio12_Herencia_Vehiculo_Auto {
     public static void main(String[] args) {
         Auto auto = new Auto("Fiat", "Chronos", 2023, 4, new Motor("Nafta", 1.6));
 

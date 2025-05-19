@@ -2,7 +2,7 @@ package org.challenges;
 
 import java.util.HashMap;
 
-public class Ejercicio15_2 {
+public class Ejercicio15_Estructura_HashMap_Productos {
     public static void main(String[] args) {
         HashMap<String, Double> productos = new HashMap<>();
 

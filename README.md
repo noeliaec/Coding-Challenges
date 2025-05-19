@@ -1,24 +1,24 @@
 ## 📚 Índice de Ejercicios
 
-- [🧪 Ejercicio 1: Invertir un String](#-ejercicio-1-invertir-un-string)
-- [🧪 Ejercicio 2: Encontrar el número máximo en un array](#-ejercicio-2-encontrar-el-número-máximo-en-un-array)
-- [🧪 Ejercicio 3: Verificar si un String es un palíndromo](#-ejercicio-3-verificar-si-un-string-es-un-palíndromo)
-- [🧪 Ejercicio 4: Contar vocales en un String](#-ejercicio-4-contar-vocales-en-un-string)
-- [🧪 Ejercicio 5: Sumar múltiplos de 3 en un array](#-ejercicio-5-sumar-múltiplos-de-3-en-un-array)
-- [🧪 Ejercicio 6: Buscar un nombre en una lista ignorando mayúsculas](#-ejercicio-6-buscar-un-nombre-en-una-lista-ignorando-mayúsculas)
-- [🧪 Ejercicio 7: Clase Persona con saludo y verificación de mayoría de edad](#-ejercicio-7-clase-persona-con-saludo-y-verificación-de-mayoría-de-edad)
-- [🧪 Ejercicio 8: Clase Producto con cálculo de total y descuento](#-ejercicio-8-clase-producto-con-cálculo-de-total-y-descuento)
-- [🧪 Ejercicio 9: Clase Libro con descripción, páginas y evaluación de longitud](#-ejercicio-9-clase-libro-con-descripción-páginas-y-evaluación-de-longitud)
-- [🧪 Ejercicio 10: Clase Empleado con herencia de Persona](#-ejercicio-10-clase-empleado-con-herencia-de-persona)
-- [🧪 Ejercicio 11: Clases Animal, Perro y Gato con herencia y @Override](#-ejercicio-11-clases-animal-perro-y-gato-con-herencia-y-override)
-- [🧪 Ejercicio 12: Clase Vehiculo con subclase Auto y método sobrescrito](#-ejercicio-12-clase-vehiculo-con-subclase-auto-y-método-sobrescrito)
-- [🧪 Ejercicio 13: ArrayList de autos con múltiples filtros](#-ejercicio-13-arraylist-de-autos-con-múltiples-filtros)
-- [🧪 Ejercicio 14: Composición entre clases Auto y Motor](#-ejercicio-14-composición-entre-clases-auto-y-motor)
-- [🧪 Ejercicio 15: HashMap de productos y operaciones clave-valor](#-ejercicio-15-hashmap-de-productos-y-operaciones-clave-valor)
-- [🧪 Ejercicio 16: Set de valores únicos sin duplicados](#-ejercicio-16-set-de-valores-únicos-sin-duplicados)
-- [🧪 Ejercicio 17: Sistema de autos con herencia, composición y filtros](#-ejercicio-17-sistema-de-autos-con-herencia-composición-y-filtros)
-- [🧪 Ejercicio 18: Catálogo de celulares con lógica y estructuras](#-ejercicio-18-catálogo-de-celulares-con-lógica-y-estructuras)
-
+- [🧪 Ejercicio 1: Manejo de String – Invertir un texto](#-ejercicio-1-manejo-de-string--invertir-un-texto)
+- [🧪 Ejercicio 2: Array – Encontrar el número máximo](#-ejercicio-2-array--encontrar-el-número-máximo)
+- [🧪 Ejercicio 3: String – Verificar si es palíndromo](#-ejercicio-3-string--verificar-si-es-palíndromo)
+- [🧪 Ejercicio 4: String – Contar vocales](#-ejercicio-4-string--contar-vocales)
+- [🧪 Ejercicio 5: Array – Sumar múltiplos de 3](#-ejercicio-5-array--sumar-múltiplos-de-3)
+- [🧪 Ejercicio 6: Lista – Buscar nombre ignorando mayúsculas](#-ejercicio-6-lista--buscar-nombre-ignorando-mayúsculas)
+- [🧪 Ejercicio 7: POO – Clase Persona con saludo y mayoría de edad](#-ejercicio-7-poo--clase-persona-con-saludo-y-mayoría-de-edad)
+- [🧪 Ejercicio 8: POO – Clase Producto con total y descuento](#-ejercicio-8-poo--clase-producto-con-total-y-descuento)
+- [🧪 Ejercicio 9: POO – Clase Libro con descripción y evaluación](#-ejercicio-9-poo--clase-libro-con-descripción-y-evaluación)
+- [🧪 Ejercicio 10: POO – Herencia en clase Empleado](#-ejercicio-10-poo--herencia-en-clase-empleado)
+- [🧪 Ejercicio 11: Herencia – Clases Animal, Perro y Gato con @Override](#-ejercicio-11-herencia--clases-animal-perro-y-gato-con-override)
+- [🧪 Ejercicio 12: Herencia – Clase Vehículo y subclase Auto](#-ejercicio-12-herencia--clase-vehículo-y-subclase-auto)
+- [🧪 Ejercicio 13: ArrayList – Autos con múltiples filtros](#-ejercicio-13-arraylist--autos-con-múltiples-filtros)
+- [🧪 Ejercicio 14: Composición – Relación entre Auto y Motor](#-ejercicio-14-composición--relación-entre-auto-y-motor)
+- [🧪 Ejercicio 15: HashMap – Productos y operaciones clave-valor](#-ejercicio-15-hashmap--productos-y-operaciones-clave-valor)
+- [🧪 Ejercicio 16: Set – Lista sin duplicados](#-ejercicio-16-set--lista-sin-duplicados)
+- [🧪 Ejercicio 17: Herencia y Composición – Sistema de autos con filtros](#-ejercicio-17-herencia-y-composición--sistema-de-autos-con-filtros)
+- [🧪 Ejercicio 18: Composición – Catálogo de celulares con estructuras](#-ejercicio-18-composición--catálogo-de-celulares-con-estructuras)
+- [🧪 Ejercicio 19: Estructura Stack – Simulación de vidas en un videojuego](#-ejercicio-19-estructura-stack--simulación-de-vidas-en-un-videojuego)
 
 # 🚀 Live Coding Challenges
 
@@ -26,8 +26,8 @@ Práctica de ejercicios de programación en Java para entrevistas y mejora de ha
 
 ---
 
-## 🧪 Ejercicio 1: Invertir un String
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio1.java)
+## 🧪 Ejercicio 1: Manejo de String – Invertir un texto
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio1_Manejo_String.java)
 
 ### Enunciado
 
@@ -65,8 +65,8 @@ Escribir una función que reciba un `String` y devuelva el `String` invertido.
   Se devuelve el string invertido.
 
 
-## 🧪 Ejercicio 2: Encontrar el número máximo en un array
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio2.java)
+## 🧪 Ejercicio 2: Estructura Array – Encontrar el número máximo
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio2_Estructura_Array.java)
 
 ### Enunciado
 
@@ -106,8 +106,8 @@ Escribir una función que reciba un array de números enteros y devuelva el núm
 - `return max;`  
   Se devuelve el número más grande encontrado.
 
-## 🧪 Ejercicio 3: Verificar si un String es un palíndromo
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio3.java)
+## 🧪 Ejercicio 3: Manejo de String – Verificar si es palíndromo
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio3_Manejo_String_Palindromo.java)
 
 ### Enunciado
 
@@ -150,8 +150,8 @@ Crear un programa que verifique si un `String` es un palíndromo (se lee igual d
 - `return true;`  
   Si todos los pares coinciden, es un palíndromo.
 
-## 🧪 Ejercicio 4: Contar vocales en un String
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio4.java)
+## 🧪 Ejercicio 4: Manejo de String – Contar vocales
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio4_Manejo_String_Vocales.java)
 
 ### Enunciado
 
@@ -194,8 +194,8 @@ Escribir un programa que cuente cuántas vocales (`a, e, i, o, u`) contiene una 
 - `return contador;`  
   Devuelve el total de vocales encontradas.
 
-## 🧪 Ejercicio 5: Sumar múltiplos de 3 en un array
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio5.java)
+## 🧪 Ejercicio 5: Estructura Array – Sumar múltiplos de 3
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio5_Estructura_Array_Suma.java)
 
 ### Enunciado
 
@@ -226,8 +226,8 @@ Dado un array de números enteros, sumar todos los que sean múltiplos de 3.
 - `System.out.print(suma);`  
   Imprime el resultado final de la suma.
 
-## 🧪 Ejercicio 6: Buscar un nombre en una lista ignorando mayúsculas
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio6.java)
+## 🧪 Ejercicio 6: Estructura Lista – Buscar nombre ignorando mayúsculas
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio6_Estructura_Lista_Busqueda.java)
 
 ### Enunciado
 
@@ -265,8 +265,8 @@ Dada una lista de nombres, permitir al usuario ingresar uno por consola y verifi
 - `System.out.print(encontrado);`  
   Muestra si se encontró o no.
 
-## 🧪 Ejercicio 7: Clase Persona con saludo y verificación de mayoría de edad
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio7.java)
+## 🧪 Ejercicio 7: POO – Clase Persona con saludo y mayoría de edad
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio7_POO_Clase_Persona.java)
 
 ### Enunciado
 
@@ -288,8 +288,8 @@ Crear una clase `Persona` con nombre y edad. La persona puede saludar e indicar 
 
 - En el `main`, se crea una persona y se ejecutan ambos métodos.
 
-## 🧪 Ejercicio 8: Clase Producto con cálculo de total y descuento
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio8.java)
+## 🧪 Ejercicio 8: POO – Clase Producto con total y descuento
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio8_POO_Clase_Producto.java)
 
 ### Enunciado
 
@@ -311,8 +311,8 @@ Crear una clase `Producto` que contenga nombre, precio y cantidad. Implementar m
 
 - En el `main`, se crea un producto y se imprimen sus detalles, el total sin descuento y el total con descuento.
 
-## 🧪 Ejercicio 9: Clase Libro con descripción, páginas y evaluación de longitud
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio9.java)
+## 🧪 Ejercicio 9: POO – Clase Libro con descripción y evaluación
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio9_POO_Clase_Libro.java)
 
 ### Enunciado
 
@@ -337,8 +337,8 @@ Crear una clase `Libro` que contenga título, autor y cantidad de páginas. Impl
 
 - En el `main`, se crea un objeto `Libro`, se muestran sus datos, la sinopsis, las páginas restantes y si es largo o no.
 
-## 🧪 Ejercicio 10: Clase Empleado con herencia de Persona
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio10.java)
+## 🧪 Ejercicio 10: POO – Herencia en clase Empleado
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio10_POO_Herencia_Empleado.java)
 
 ### Enunciado
 
@@ -366,8 +366,8 @@ Crear una clase `Empleado` que herede de `Persona`, agregando sueldo base y bono
 
 - En el `main`, se crea un `Empleado`, se invocan métodos heredados y propios, y se imprime toda la información.
 
-## 🧪 Ejercicio 11: Clases Animal, Perro y Gato con herencia y @Override
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio11.java)
+## 🧪 Ejercicio 11: Herencia – Clases Animal, Perro y Gato con @Override
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio11_Herencia_Animal_Override.java)
 
 ### Enunciado
 
@@ -389,8 +389,8 @@ Crear una clase base `Animal` con atributos `nombre` y `edad`, y un método `hac
 
 - En el `main`, se crean instancias de `Perro` y `Gato`, se imprime su información y se llama a los métodos sobrescritos.
 
-## 🧪 Ejercicio 12: Clase Vehiculo con subclase Auto y método sobrescrito
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio12.java)
+## 🧪 Ejercicio 12: Herencia – Clase Vehículo y subclase Auto
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio12_Herencia_Vehiculo_Auto.java)
 
 ### Enunciado
 
@@ -412,8 +412,8 @@ Crear una clase base `Vehiculo` con atributos `marca`, `modelo` y `anio`, y un m
 
 - En el `main`, se crea un objeto `Auto` y se muestra toda su información.
 
-## 🧪 Ejercicio 13: ArrayList de autos con múltiples filtros
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio13.java)
+## 🧪 Ejercicio 13: Colección ArrayList – Autos con múltiples filtros
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio13_Coleccion_ArrayList_Filtros.java)
 
 ### Enunciado
 
@@ -425,8 +425,8 @@ Crear una lista (`ArrayList`) de objetos `Auto` y aplicar filtros utilizando mé
 - Cada objeto `Auto` tiene atributos como `marca`, `modelo`, `anio`, y `puertas`.
 - Se aplican condiciones con `&&` dentro de un `for` para filtrar autos.
 
-## 🧪 Ejercicio 14: Composición entre clases Auto y Motor
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio14.java)
+## 🧪 Ejercicio 14: Composición – Relación entre Auto y Motor
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio14_Composicion_Auto_Motor.java)
 
 ### Enunciado
 
@@ -438,9 +438,9 @@ Crear una clase `Motor` con tipo y cilindrada, y una clase `Auto` que contiene u
 - Cada `Motor` contiene `tipo` (ej: "Nafta") y `cilindrada` (ej: 1.6).
 - En el método `mostrarDetalles()` del auto se imprime también la información del motor usando `motor.mostrarMotor()`.
 
-## 🧪 Ejercicio 15: HashMap de productos y operaciones clave-valor
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio15_1.java)
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio15_2.java)
+## 🧪 Ejercicio 15: HashMap – Productos y operaciones clave-valor
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio15_Estructura_HashMap.java)
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio15_Estructura_HashMap_Productos.java)
 
 ### Enunciado
 
@@ -452,8 +452,8 @@ Crear un `HashMap<String, Double>` que represente productos y sus precios. Utili
 - Se recorrió el mapa con un `for` sobre `keySet()` para mostrar clave y valor.
 - Se trabajó con claves únicas (`String`) y valores numéricos (`Double`).
 
-## 🧪 Ejercicio 16: Set de valores únicos sin duplicados
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio16.java)
+## 🧪 Ejercicio 16: Set – Lista sin duplicados
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio16_Estructura_Set_SinDuplicados.java)
 
 ### Enunciado
 
@@ -465,9 +465,8 @@ Utilizar un `Set<String>` para guardar una lista de valores únicos (por ejemplo
 - Al intentar agregar valores repetidos, el `Set` los ignora.
 - Se recorrió el set con un `for` para mostrar todos los valores únicos.
 
-## 🧪 Ejercicio 17: Sistema de autos con herencia, composición y filtros
-
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio17.java)
+## 🧪 Ejercicio 17: POO con Herencia y Composición – Sistema de autos
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio17_POO_Composicion_Herencia_Autos.java)
 
 ### Enunciado
 
@@ -485,9 +484,8 @@ Crear un sistema que modele autos utilizando herencia (`Auto` hereda de `Vehicul
 - Se usa `HashMap<String, Double>` para registrar precios por modelo
 - Se usa `Set<String>` para obtener marcas únicas de la lista
 
-## 🧪 Ejercicio 18: Catálogo de celulares con lógica y estructuras
-
-[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio18.java)
+## 🧪 Ejercicio 18: Composición – Catálogo de celulares con estructuras
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio18_Composicion_Celulares_Estructuras.java)
 
 ### Enunciado
 
@@ -506,3 +504,18 @@ Crear un sistema que modele celulares usando clases con herencia y composición.
   - Mostrar el “mejor” celular según criterios compuestos
 - Se usó `HashMap<String, Double>` para precios por modelo
 - Se usó `Set<String>` para obtener marcas únicas sin duplicados
+
+## 🧪 Ejercicio 19: Estructura Stack – Simulación de vidas en un videojuego
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio19_Estructura_Stack_Vidas.java)
+
+### Enunciado
+
+Simular un sistema de vidas en un videojuego. El jugador comienza con 3 vidas (`❤️`) apiladas en un `Stack`. Por cada golpe recibido (`🪓`), se pierde una vida (`pop()`). El juego muestra visualmente las vidas restantes y finaliza con un mensaje de "Game Over" si no queda ninguna.
+
+### 📖 Detalles clave
+
+- Se utiliza `Stack<String>` para representar las vidas
+- Se cargan 3 corazones usando `push()`
+- Por cada golpe (`🪓` en un array), se realiza un `pop()` si la pila no está vacía
+- Se imprime visualmente cuántas vidas quedan
+- Si el jugador se queda sin vidas, se muestra un mensaje de "💀 GAME OVER 💀"

@@ -1,6 +1,6 @@
 package org.challenges;
 
-public class Ejercicio11 {
+public class Ejercicio11_Herencia_Animal_Override {
     public static void main(String[] args){
         Perro perro = new Perro("Firulais", 5);
         Gato gato = new Gato("Michi", 3);

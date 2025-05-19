@@ -1,6 +1,6 @@
 package org.challenges;
 
-public class Ejercicio8 {
+public class Ejercicio8_POO_Clase_Producto {
     public static void main(String[] args) {
         Producto producto = new Producto("Mouse", 2000.0, 3);
 

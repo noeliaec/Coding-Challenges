@@ -1,6 +1,6 @@
 package org.challenges;
 
-public class Ejercicio2 {
+public class Ejercicio2_Estructura_Array {
     public static void main(String[] args){
         int[] numeros = {2, 34, 56, 12, 5};
         int maximo = encontrarNumeroMaximo(numeros);

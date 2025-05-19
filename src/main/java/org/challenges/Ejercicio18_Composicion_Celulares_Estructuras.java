@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Ejercicio18 {
+public class Ejercicio18_Composicion_Celulares_Estructuras {
     public static void main(String[]  args) {
         ArrayList<Celular> celulares = new ArrayList<>();
 

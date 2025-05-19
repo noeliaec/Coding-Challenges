@@ -2,7 +2,7 @@ package org.challenges;
 
 import java.util.HashMap;
 
-public class Ejercicio15_1 {
+public class Ejercicio15_Estructura_HashMap {
     public static void main(String[] args){
         HashMap<String, String> diccionario = new HashMap<>();
 

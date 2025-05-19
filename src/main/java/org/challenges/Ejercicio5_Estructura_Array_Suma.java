@@ -1,6 +1,6 @@
 package org.challenges;
 
-public class Ejercicio5 {
+public class Ejercicio5_Estructura_Array_Suma {
     public static void main(String[] args){
         int[] numeros = {1, 3, 5, 6, 9, 11};
         int suma = 0;
