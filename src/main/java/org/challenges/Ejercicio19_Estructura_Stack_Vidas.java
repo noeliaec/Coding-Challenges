@@ -2,7 +2,7 @@ package org.challenges;
 
 import java.util.Stack;
 
-public class Ejercicio19_Estructura_Stack {
+public class Ejercicio19_Estructura_Stack_Vidas {
     public static void main(String[] args) {
     Stack <String> vidas = new Stack();
     String vida = " ❤️ ";
