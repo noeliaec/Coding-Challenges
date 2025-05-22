@@ -19,6 +19,7 @@
 - [🧪 Ejercicio 17: Herencia y Composición – Sistema de autos con filtros](#-ejercicio-17-herencia-y-composición--sistema-de-autos-con-filtros)
 - [🧪 Ejercicio 18: Composición – Catálogo de celulares con estructuras](#-ejercicio-18-composición--catálogo-de-celulares-con-estructuras)
 - [🧪 Ejercicio 19: Estructura Stack – Simulación de vidas en un videojuego](#-ejercicio-19-estructura-stack--simulación-de-vidas-en-un-videojuego)
+- [🧪 Ejercicio 20: Estructura Matriz – Recorrido e impresión de una matriz 3x3](#-ejercicio-20-estructura-matriz--recorrido-e-impresión-de-una-matriz-3x3)
 
 # 🚀 Live Coding Challenges
 
@@ -519,3 +520,23 @@ Simular un sistema de vidas en un videojuego. El jugador comienza con 3 vidas (`
 - Por cada golpe (`🪓` en un array), se realiza un `pop()` si la pila no está vacía
 - Se imprime visualmente cuántas vidas quedan
 - Si el jugador se queda sin vidas, se muestra un mensaje de "💀 GAME OVER 💀"
+
+## 🧪 Ejercicio 20: Estructura Matriz – Recorrido e impresión de una matriz 3x3
+[📄 Ver código](https://github.com/noeliaec/Coding-Challenges/blob/main/src/main/java/org/challenges/Ejercicio20_Estructura_Matriz_Recorrido.java)
+
+### Enunciado
+
+Crear una matriz 3x3 con números del 1 al 9 y mostrarla en formato de tabla utilizando dos bucles `for`.
+
+### 📖 Conceptos clave
+
+- Uso de `int[][]` para representar una matriz de enteros
+- Bucle externo para recorrer las filas
+- Bucle interno para recorrer las columnas
+- `System.out.print()` para mostrar los elementos en la misma línea
+- `System.out.println()` para saltar de fila
+
+### 💡 Resultado esperado
+1 2 3
+4 5 6
+7 8 9
